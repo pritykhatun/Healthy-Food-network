@@ -1,8 +1,9 @@
 body{
     font-family: 'Roboto Slab', serif;
-   
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    margin:0;
 }
-
 .color{
     color: navy;
 
@@ -42,3 +43,52 @@ body{
     display: flex;
     
 }
+
+.recipies{
+    text-align: center;
+}
+
+.add-image{
+    display: flex;
+     width: 10%;
+    height: 400px;
+    margin-left: 40px;
+    padding-right:300px;
+    padding-top:25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.add-image img{
+width: 200px;
+height:200px ;
+margin-left:140px;
+border-radius: 10px;
+
+}
+.add-text{
+    text-align: center;
+    margin-left: 130px;
+}
+.add-text p{
+    text-align: center;
+    margin-left: 130px;
+}
+.foter{
+    width: 50%;
+    color: white;
+    border-radius: 5px;
+    background-color:black;
+    border: 3px solid;
+    padding: 60px 20px 40px 20px;
+    margin: 80px 20px 20px 300px;
+}
+.last-menu{
+    text-decoration: none;
+    background-image: linear-gradient(cyan,gray);
+     padding: 20px 40px;
+     margin-left: 500px;
+     border-radius: 10px;
+      color: white;
+}
+
+
